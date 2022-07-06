@@ -5,5 +5,6 @@
 <hr>
 
 ### Chapters:
-1. Creating a java project; How? Why? What?!
+[1. Creating a java project; How? Why? What?!](chapter_001/course.md)
+
 
