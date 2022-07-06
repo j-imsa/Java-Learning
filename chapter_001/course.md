@@ -20,16 +20,14 @@ Positions:
 
 #### Java program execution flow
 
-![execution flow](figure_001.jpg)
+<p align="center">
+<img src="figure_001.jpg" alt="Java execution flow"/>
+</p>
 
 #### Key files in Java program
 - .java
 - .class
 - OS executable file
-
-#### JVM
-
-
 
 #### JRE (_Java Runtime Environment_)
 
@@ -67,7 +65,9 @@ Positions:
     
        - Principles of functionality of a Java ClassLoader 
          - Delegation Hierarchy Algorithm ([*reference](https://www.geeksforgeeks.org/classloader-in-java/))
-           ![Principles of functionality of a Java ClassLoader](figure_002.png)
+            <p align="center">
+                <img src="figure_002.png" alt="Principles of functionality of a Java ClassLoader"/>
+            </p>
          - Visibility Principle
          - Uniqueness Property
        
@@ -82,6 +82,7 @@ Positions:
   3. Interpreter
 
 
+#### JVM
 
 #### JDK
 
