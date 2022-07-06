@@ -78,11 +78,29 @@ Positions:
            - implementing a class versioning mechanism -> **URL class loader (load jars via URLs)**
          - CustomClassLoader -> [Code](JdbcCustomDriverLoader.java)
        
-  2. Bytecode verifier 
+  2. Bytecode verifier
+
+     - JVM has a gatekeeper
+     
+     - verifications:
+       - The operand stack present in the frame should not get overflowed, and it should not be underflow or underutilized. 
+       - The variables must be initialized before the usage.
+       - Private data from the class is not accessed from outside of the class. 
+       - The proper references must be used for the method calls. 
+       - The stack should not get overflowed.
+       - The final classes are not extended, and the final methods are not overridden.
+       - If the verifier finds that something is missing from the preceding list, the code execution is blocked for that file.
+     
+     - bytecode verifier along with compiler?
+     
+     - 
+
   3. Interpreter
 
 
 #### JVM
+
+
 
 #### JDK
 
