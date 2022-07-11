@@ -1,12 +1,5 @@
 # Chapter 001
 
-### Table of Contents:
-
-1. [JXX](#jxx)
-2. [Create Project](#create-project)
-3. [Test](#test)
-4. [Other Concepts](#other-concepts)
-
 
 ## JXX
 
@@ -29,7 +22,7 @@ Positions:
 - .class
 - OS executable file
 
-#### JRE (_Java Runtime Environment_)
+## JRE (_Java Runtime Environment_)
 
 - Definition:
   - JRE is typically a program that can communicate with the class file provided to it.
@@ -96,15 +89,12 @@ Positions:
      
      - bytecode verifier along with compiler?
      
-     
-
-
 
   3. Interpreter
 
 
 
-#### JVM 
+## JVM 
 
 - _the heart of the entire Java ecosystem_
 - a runtime environment provided by Java
@@ -154,7 +144,7 @@ Positions:
   - java.lang.StackOverflowError
     - recursive calls
 
-#### Just-in-time compiler
+### Just-in-time compiler
 
 - JIT 
   - converts the bytecode to native code
@@ -172,8 +162,9 @@ Positions:
   - zero-assembler
   - template interpreter -> codelet, dispatch table
 
+**Truffle interpreter for GraalVM...**
 
-Hotspot
+### Hotspot
 - one implementation of JIT technology that starts by running interpreted, and watches the actual performance of the app
 - an implementation of the part of the JVM concept, originally developed by Sun, and now it is owned by Oracle
 
@@ -189,7 +180,7 @@ Hotspot
 - The Java Virtual Machine Specification
 
 
-#### JDK
+## JDK
 
 Java Development Kit
 
@@ -197,7 +188,7 @@ this is a developer’s bundle
 
 
 
-#### OpenJDK, Oracle OpenJDK, ...
+### OpenJDK, Oracle OpenJDK, ...
 
 is an open-source project that fully implements 
 
@@ -207,7 +198,85 @@ is an open-source project that fully implements
 
 that define the Java platform
 
+[Differences Between Oracle JDK and OpenJDK](https://www.baeldung.com/oracle-jdk-vs-openjdk)
+
 ## Create Project
+
+install JDKs or SDKs
+- sdkman.io ([Link](https://sdkman.io/))
+
+IDEs (_Integrated development environment Software/java_):
+- IntelliJ IDEA
+- Eclipse
+- NetBeans
+
+1. pure java project
+   - additional libs or frameworks:
+     - Apache Groovy
+       - grails.org (_an Open Source, full stack, web application framework for the JVM_)
+       - Spock
+       - GPars
+       - Ratpack
+       - Griffon
+       - Geb
+       - Micronaut
+       - GraalVM (_high-performance JDK distribution_)
+       - Grape
+   
+     - Kotlin
+       - KotlinTest
+       - Spek
+       - Hamkrest
+       - Mockito-Kotlin
+       - Kodein
+       - jackson-module-kotlin
+       - GSON, Kotson
+       - Klaxon
+       - Retrofit
+       - OkHttp
+       - Spring Kotlin project
+       - vert.x
+       - Ktor
+       - Kara
+       - Wasabi
+       - Kovert
+       - Exposed
+       - RxJava
+       - funKTionale
+       - Kovenant
+       - TornadoFX
+
+     - SQL support
+       - Amazon Redshift
+       - Apache
+         - Cassandra (NoSQL distributed database)
+         - Derby
+         - Hive
+         - Spark (multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters)
+       - Azure SQL Database
+       - GCP BigQuery
+       - CockroachDB
+       - couchbase
+       - Exasol
+       - Greenplum
+       - ...
+
+
+2. Maven
+3. Gradle
+4. Java Enterprise 
+5. Spring Initializer 
+6. Quarkus
+7. Micronaut
+8. MicroProfile
+9. Ktor
+10. Groovy
+11. Grails App Forge
+12. Kotlin
+13. Web
+14. Multi-module Project
+15. JavaScript
+16. Empty Project
 
 
 
