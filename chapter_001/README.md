@@ -274,7 +274,13 @@ IDEs (_Integrated development environment Software/java_):
 
 
 3. Gradle
+   - DSL (Domain Specific Language)
+
+
 4. Java Enterprise 
+   - 
+
+
 5. Spring Initializer 
 6. Quarkus
 7. Micronaut
