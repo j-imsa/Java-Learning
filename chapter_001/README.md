@@ -263,6 +263,16 @@ IDEs (_Integrated development environment Software/java_):
 
 
 2. Maven
+  - project management
+  - comprehension tool
+  - Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
+  - builds a project using its project object model (POM) and a set of plugins
+  - multi module project ([example](https://www.javatpoint.com/spring-boot-multi-module-project))
+    - EAR (Enterprise ARchive), 
+    - WAR (Web ARchive), 
+    - JAR (Java ARchive) 
+
+
 3. Gradle
 4. Java Enterprise 
 5. Spring Initializer 
